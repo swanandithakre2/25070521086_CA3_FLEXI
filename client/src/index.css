@@ -1,0 +1,84 @@
+/* Global Stylesheet */
+:root {
+  /* Palette */
+  --color-berry: #7D0642;
+  --color-mauve: #AB5E7B;
+  --color-rose: #D59B9B;
+  --color-cream: #F2DBCF;
+
+  /* Semantic Theme Variables */
+  --primary: #7D0642;
+  --primary-hover: #670536;
+  --primary-light: #faefe9;
+
+  --secondary: #AB5E7B;
+  --secondary-hover: #964f69;
+  --secondary-light: #f5e8ed;
+
+  --accent: #D59B9B;
+  --accent-light: #F2DBCF;
+
+  --bg-main: #fbf8f6;
+  --bg-card: #ffffff;
+  --bg-subtle: #f5ece7;
+
+  --text-main: #201418;
+  --text-muted: #6d5b63;
+  --text-inverse: #ffffff;
+
+  --border-color: #ebdcd5;
+  --border-focus: #AB5E7B;
+
+  --danger: #9a1a24;
+  --danger-hover: #7f141c;
+  --danger-light: #fae9ea;
+  --danger-border: #f1b8bc;
+
+  --success: #1d693f;
+  --success-light: #e8f5ed;
+  --success-border: #abdcb9;
+
+  --radius-sm: 4px;
+  --radius: 6px;
+  --radius-lg: 10px;
+
+  --shadow-sm: 0 1px 2px rgba(32, 20, 24, 0.05);
+  --shadow-md: 0 3px 6px rgba(32, 20, 24, 0.07);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: var(--bg-main);
+  color: var(--text-main);
+  line-height: 1.5;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+
+input, select, textarea {
+  font-family: inherit;
+  font-size: 14px;
+}
